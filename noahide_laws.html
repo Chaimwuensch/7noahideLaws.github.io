@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Seven Noahide Laws</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./earth_fav.ico" type="image/x-icon">
+  
+    <style>
+  body {
+    background-image: url(mountain.jpg);
+    background-color:#3dffff;
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-size: 1600px 1700px;
+      }
+    </style>
+ 
+  </head>
+  <body>
+    <main>
+        <h1>The Seven Noahide Laws</h1> 
+        <br>
+        <h4>G‑d placed humanity on this planet with a mandate:<br> Work with it, protect it, leave it better than you found it.</h4> 
+        <br>
+        <h2>To guide us in this cosmic mission,<br> He gave us seven laws, <br>all of them crucial elements<br> to achieving a harmonious, beautiful,<br>and meaningful life:</h2>
+        <br>
+        <br>
+        <ol>
+          <li>
+            <br><br>
+            <div class="popup" onclick="myFunction1()">
+              <button id="button">Do not profane G‑d's Oneness in any way.</button>
+              <span class="popuptext" id="myPopup1">Acknowledge that there is a single G‑d who cares about what we are doing and desires that we take care of His world.</span>
+            </div>
+          </li>
+          <br>
+          <br>
+          <br>
+          <li>
+            <div class="popup" onclick="myFunction2()">
+              <button id="button">Do not curse your Creator.</button>
+              <span class="popuptext" id="myPopup2">No matter how angry you may be, do not take it out verbally against your Creator.</span>
+            </div>
+          </li>
+          <br>
+          <br>
+          <br>
+          <li><div class="popup" onclick="myFunction3()">
+              <button id="button">Do not murder.</button>
+              <span class="popuptext" id="myPopup3">The value of human life cannot be measured. To destroy a single human life is to destroy the entire world—because, for that person, the world has ceased to exist. It follows that by sustaining a single human life, you are sustaining an entire universe.</span>
+            </div>
+          </li>
+          <br>
+          <br>
+          <br>
+          <li>
+            <div class="popup" onclick="myFunction4()">
+              <button id="button">Do not eat a limb of a still-living animal.</button>
+              <span class="popuptext" id="myPopup4">Respect the life of all G‑d's creatures. As intelligent beings, we have a duty not to cause undue pain to other creatures.</span>
+            </div>
+          </li>
+          <br>
+          <br>
+          <br>
+          <li>
+            <div class="popup" onclick="myFunction5()">
+              <button id="button">Do not steal.</button>
+              <span class="popuptext" id="myPopup5">Whatever benefits you receive in this world, make sure that none of them are at the unfair expense of someone else.</span>
+            </div>
+          </li>
+          <br>
+          <br>
+          <br>
+          <li>
+            <div class="popup" onclick="myFunction6()">
+              <button id="button">Harness and channel the human libido.</button>
+              <span class="popuptext" id="myPopup6">Incest, adultery, rape and homosexual relations are forbidden.
+                The family unit is the foundation of human society. Sexuality is the fountain of life and so nothing is more holy than the sexual act. So, too, when abused, nothing can be more debasing and destructive to the human being.</span>
+            </div>
+          </li>
+          <br>
+          <br>
+          <br>
+          <li>
+            <div class="popup" onclick="myFunction7()">
+              <button id="button">Establish courts of law and ensure justice in our world.</button>
+              <span class="popuptext" id="myPopup7">With every small act of justice, we are restoring harmony to our world, synchronizing it with a supernal order. That is why we must keep the laws established by our government for the country's stability and harmony.</span>
+            </div>
+          </li>  
+        </ol>
+        <div class="center">
+          <button id="finito"><a id="last-button" href="https://www.chabad.org/library/article_cdo/aid/62221/jewish/The-7-Noahide-Laws-Universal-Morality.htm" >More info</a></button>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p>If you liked the websites aesthetics feel free to reach out on linkedn by clicking the link below and giving your input!</p>
+        <br>
+        <a href="https://linkedin.com/in/chaim-wuensch">Created by: Chaim Wuensch</a>
+        <br>
+        <br>
+        <a target="_blank" href="https://icons8.com/icon/9EDjxi3YhrXq/green-earth">Green Earth icon by </a><a target="_blank" href="https://icons8.com">Icons8</a>
+    </main>
+	<script src="index.js"></script>
+  <style>
+    /* Popup container - can be anything you want */
+    .popup {
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+    
+    /* The actual popup */
+    .popup .popuptext {
+      visibility: hidden;
+      width: 160px;
+      background-color: #393939;
+      color: #ffffff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 8px 0;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -80px;
+    }
+    
+    /* Popup arrow */
+    .popup .popuptext::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: #393939 transparent transparent transparent;
+    }
+    
+    /* Toggle this class - hide and show the popup */
+    .popup .show {
+      visibility: visible;
+      -webkit-animation: fadeIn 1s;
+      animation: fadeIn 1s;
+    }
+    
+    /* Add animation (fade in the popup) */
+    @-webkit-keyframes fadeIn {
+      from {opacity: 0;} 
+      to {opacity: 1;}
+    }
+    
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity:1 ;}
+    }
+  </style>
+  <script>
+    // When the user clicks on div, open the popup
+    function myFunction1() {
+      var popup = document.getElementById("myPopup1");
+      popup.classList.toggle("show");
+    }
+    function myFunction2() {
+      var popup = document.getElementById("myPopup2");
+      popup.classList.toggle("show");
+    }
+    function myFunction3() {
+      var popup = document.getElementById("myPopup3");
+      popup.classList.toggle("show");
+    }
+    function myFunction4() {
+      var popup = document.getElementById("myPopup4");
+      popup.classList.toggle("show");
+    }
+    function myFunction5() {
+      var popup = document.getElementById("myPopup5");
+      popup.classList.toggle("show");
+    }
+    function myFunction6() {
+      var popup = document.getElementById("myPopup6");
+      popup.classList.toggle("show");
+    }
+    function myFunction7() {
+      var popup = document.getElementById("myPopup7");
+      popup.classList.toggle("show");
+    }
+    </script>
+  </body>
+</html>
+
+
