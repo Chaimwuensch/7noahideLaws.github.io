@@ -1,0 +1,90 @@
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-style: outset;
+    border-color: rgb(50, 233, 243);
+    margin: auto;
+    height: auto;
+    width: 40%;
+   
+}
+h4 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: azure;
+}
+h2 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 27px;
+    text-align: center;
+    background-color: rgba(148, 85, 33, 0.788);
+    border-style: dotted ;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    margin:auto;
+    height:auto;
+    width: 20%;
+    
+}
+li{
+    text-align: center;
+    
+}
+ol{
+    text-align: center;
+    color: rgb(55, 141, 215);
+    border-radius: 10px;
+    list-style-type: none;
+}
+a{
+    color:rgb(87, 87, 235)
+}
+p {
+    text-align: center;
+    color: aliceblue;
+}
+#button {
+    padding: 10px 20px;
+    font-size: 15px;
+    font-family:inherit;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #000000;
+    background-color: #3dffff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+  }
+  
+#button:hover {background-color: #00a2ff}
+  
+#button:active {
+    background-color: #064fc4;
+    box-shadow: 0 2px #666;
+    transform: translateY(3px);
+  }
+#last-button {
+    text-decoration: none;
+    text-align: center;
+}
+#last-button:active {
+    background-color: #064fc4;
+    box-shadow: 0 2px #666;
+    transform: translateY(3px);}
+
+#last-button:hover {background-color: #00a2ff;
+                    border-radius: 6px;}    
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+#finito {
+    background-color: #042874;
+    border-radius: 7px;
+    font-size: 16px;
+}
